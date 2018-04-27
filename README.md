@@ -8,10 +8,10 @@ _***Additions:**_ _the mock-up seem off w/o contact info so I added a footer wit
 ## Resources
 
   - **Design:** portfolio mock-up design provided by Udacity
-  - **Jane Doette logo:** logo brand design by Giovanni De Andre aka Gio/me
+  - **Jane Doette logo:** logo brand design by [Giovanni De Andre](https://twitter.com/GiovanniDeAndre)
   - **Build:** HTML and CSS
   - **Fonts:** [Roboto](https://fonts.google.com/specimen/Roboto) by Google
-  - **Images** Unsplash.com
+  - **Images** [Unsplash](https://unsplash.com)
     - Hero image photo by Thien Dang on Unsplash
     - Feature 1 photo by Aidan Hancock on Unsplash
     - Feature 2
@@ -25,13 +25,13 @@ _***Additions:**_ _the mock-up seem off w/o contact info so I added a footer wit
   - Axe Accessability tool (Chrome Extension)
   - Lighthouse (Chrome Extension)
   - Live Server (VSC Extension) great tool to run localhost and watch for file changes refreshes browser, _is magical_
-  - Autoprefixer for css
-  - Beutify
+  - Autoprefixer CSS
+  - Beautify
 
 
 ## Support
 
-Browser support works with the latest and the gretest.
+Browser support works with the latest and the greatest.
 
 ## TODO
   - Redesign given mock-up design (I'll try to do my best!)
