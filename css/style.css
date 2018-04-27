@@ -226,6 +226,9 @@ a:hover {
     width: 48%;
     margin: 1.5em 1%;
   }
+  .projects li:last-child {
+    margin: 1.5em 1%;
+  }
 }
 
 @media screen and (max-width: 425px) {
