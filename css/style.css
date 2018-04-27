@@ -129,7 +129,7 @@ a:hover {
   margin: 2.5em 0 0;
   width: 100%;
   height: 400px;
-  background: url(/images/thien-dang-1920.jpg) no-repeat 50% 70%;
+  background: url(../images/thien-dang-1920.jpg) no-repeat 50% 70%;
   background-size: 100%;
 }
 
@@ -219,7 +219,7 @@ a:hover {
 
 @media screen and (max-width: 800px) {
   .hero {
-    background: url(/images/thien-dang-800.jpg) no-repeat 50% 70%;
+    background: url(../images/thien-dang-800.jpg) no-repeat 50% 70%;
   }
   .projects li,
   .projects li:last-child {
@@ -246,7 +246,7 @@ a:hover {
     text-transform: uppercase;
   }
   .hero {
-    background: url(/images/thien-dang-425.jpg) no-repeat 50% 70%;
+    background: url(../images/thien-dang-425.jpg) no-repeat 50% 70%;
   }
   .projects li {
     width: 100%;
