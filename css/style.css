@@ -221,8 +221,7 @@ a:hover {
   .hero {
     background: url(../images/thien-dang-800.jpg) no-repeat 50% 70%;
   }
-  .projects li,
-  .projects li:last-child {
+  .projects li {
     width: 48%;
     margin: 1.5em 1%;
   }
