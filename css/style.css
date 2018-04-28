@@ -229,7 +229,7 @@ a:hover {
   .projects li:last-child {
     margin: 1.5em auto;
   }
-  .section__heading{
+  .section__heading {
     text-align: center;
   }
   .foot__copy,
@@ -242,7 +242,7 @@ a:hover {
   .foot__contact {
     order: 1;
   }
-  .foot__contact li{
+  .foot__contact li {
     margin: 0 36px 0 0;
   }
 }
