@@ -97,8 +97,8 @@ a:hover {
 }
 
 .header__logo {
-  width: 72px;
-  height: 72px;
+  width: 50px;
+  height: 50px;
   font-weight: 900;
 }
 
@@ -113,14 +113,14 @@ a:hover {
   flex: 1;
   text-align: right;
   font-weight: 300;
+  font-size: 19px;
   text-transform: uppercase;
 }
 
 .header__title-sub {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 /* Hero Image */
@@ -131,6 +131,12 @@ a:hover {
   height: 400px;
   background: url(../images/thien-dang-1920.jpg) no-repeat 50% 70%;
   background-size: 100%;
+}
+
+/* Section */
+
+.section__heading {
+  text-transform: capitalize;
 }
 
 /* Projects */
@@ -164,12 +170,10 @@ a:hover {
 }
 
 .projects__img-container img {
-  width: 100%;
   height: auto;
   position: absolute;
   top: 0;
   left: 0;
-  background-size: cover;
 }
 
 .projects__title {
@@ -192,22 +196,19 @@ a:hover {
   padding: 0.75em 0 0.75em;
 }
 
-.foot__copy,
-.foot__contact {
-  width: 50%;
-}
-
 .foot__copy {
+  width: 30%;
   order: 1;
 }
 
 .foot__contact {
+  width: 70%;
   order: 2;
 }
 
 .foot__contact li {
-  float: left;
-  margin: 0 1.5em 0 0;
+  display: inline-block;
+  margin: 0 0 0 83px;
 }
 
 .foot__contact a {
@@ -222,40 +223,14 @@ a:hover {
     background: url(../images/thien-dang-800.jpg) no-repeat 50% 70%;
   }
   .projects li {
-    width: 48%;
-    margin: 1.5em 1%;
-  }
-  .projects li:last-child {
-    margin: 1.5em 1%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .header {
-    padding: 0;
-  }
-  .header__logo {
-    width: 60px;
-    height: 60px;
-  }
-  .header__title {
-    font-size: 24px;
-  }
-  .header__title-sub {
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-  }
-  .hero {
-    background: url(../images/thien-dang-425.jpg) no-repeat 50% 70%;
-  }
-  .projects li {
-    width: 100%;
+    width: 90%;
     margin: 1.5em auto;
   }
   .projects li:last-child {
-    margin: 1.5em 0;
+    margin: 1.5em auto;
+  }
+  .section__heading{
+    text-align: center;
   }
   .foot__copy,
   .foot__contact {
@@ -266,6 +241,35 @@ a:hover {
   }
   .foot__contact {
     order: 1;
+  }
+  .foot__contact li{
+    margin: 0 36px 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    padding: 0;
+  }
+  .header__logo {
+    width: 48px;
+    height: 48px;
+  }
+  .header__title {
+    font-size: 19px;
+  }
+  .header__title-sub {
+    font-size: 12px;
+  }
+  .hero {
+    background: url(../images/thien-dang-425.jpg) no-repeat 50% 70%;
+  }
+  .projects li {
+    width: 100%;
+    margin: 1.5em auto;
+  }
+  .projects li:last-child {
+    margin: 1.5em 0;
   }
 }
 

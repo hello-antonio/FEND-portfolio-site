@@ -18,6 +18,7 @@ _***Additions:**_ _the mock-up seem off w/o contact info so I added a footer wit
   photo by Antony Xia on Unsplash
     - Feature 3
   photo by Rosie Kerr on Unsplash
+  - **Images optimization:** [Tinyjpg](https://tinyjpg.com/)
 
 **Dev Tools/Extensions**
   - Visual Studio Code
