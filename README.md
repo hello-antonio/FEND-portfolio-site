@@ -11,8 +11,8 @@ _***Additions:**_ _the mock-up seem off w/o contact info so I added a footer wit
   - **Jane Doette logo:** logo brand design by [Giovanni De Andre](https://twitter.com/GiovanniDeAndre)
   - **Build:** HTML and CSS
   - **Fonts:** [Montserrat](https://fonts.google.com/specimen/Montserrat) by Google
-  - **Images** [Minimalissimo](https://minimalissimo.com/nature-line-collection/)
-    - Hero image photo by Thien Dang on Minimalissimo
+  - **Images** [Unsplash](https://unsplash.com/@icons8)
+    - Hero image photo by @icons8 Unsplash.com
     - Feature projects images by Giovanni De Andre
   - **Images optimization:** [Tinyjpg](https://tinyjpg.com/)
 

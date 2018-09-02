@@ -1,99 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="#02b3e4">
-    <meta name="description" content="The portfolio website of Jane Doette front-end developer and everything else.">
-    <meta name="keywords" content="front-end developer, html, css, programmer, js, portfolio">
-    <title>Jane Doette | Front End Ninja</title>
-    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
-    </style>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#000">
+  <meta name="description" content="The portfolio website of Jane Doette front-end developer and everything else.">
+  <meta name="keywords" content="front-end developer, html, css, programmer, js, portfolio">
+  <title>Jane Doette | Front End developer</title>
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    @font-face {
+      font-family: 'Arvo';
+      font-display: auto;
+      src: local('Arvo'), url(https: //fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    }
 
-  <body>
-    <div class="container">
-      <header class="header flex">
-        <div class="header__logo">
-          <span class="header__logo-text">Jane Doette</span>
-        </div>
-        <nav class="nav">
-          <ul class="nav__list">
-              <li class="nav__list__li"><a href="#home">About</a></li>
-              <li class="nav__list__li"><a href="#portfolio">Portfolio</a></li>
-              <li class="nav__list__li"><a href="">hello@janedoette.com</a></li>
-            </ul>
-        </nav>
-      </header>
+    body {
+      font-family: "Arvo", sans-serif;
+    }
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-      <div class="hero" id="home">
+<body>
+  <div class="container flex flex--col">
+    <header class="header flex space-up">
+      <p class="header__logo">
+        Jane.
+      </p>
+      <nav class="nav">
+        <ul class="ul-list ul-list--right ul-list--inline">
+          <li class="ul-list__li"><a href="#home">About</a></li>
+          <li class="ul-list__li"><a href="#portfolio">Portfolio</a></li>
+          <li class="ul-list__li"><a href="">hello@janedoette.com</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero flex flex--center" id="home">
+      <div class="hero__banner">
         <h1 class="hero__title">Jane Doette
         </h1>
         <p class="hero__sub">Front-end developer</p>
       </div>
+    </div>
 
-      <main class="main">
-        <section id="portfolio">
-          <h2 class="section__heading">Featured works</h2>
-          <ul class="projects flex">
-            <li>
-              <div class="projects__img-container">
-                <img srcset="img/img01-700.jpg 700w,
+    <main class="main">
+      <section id="portfolio">
+        <h2 class="section__heading pad">Featured works</h2>
+        <ul class="portfolio flex">
+          <li>
+            <div class="portfolio__img-container">
+              <img srcset="img/img01-700.jpg 700w,
                         img/img01-400.jpg 400w" sizes="(max-width: 425px) 250px,
-                700px" src="img/img01-700.jpg" alt="Image of Giovanni De Andre">
-              </div>
-              <h3 class="projects__title">Giovanni De Andre</h3>
-              <a href="#">Visit site</a>
-            </li>
-            <li>
-              <div class="projects__img-container">
-                <img srcset="img/img02-700.jpg 700w,
+                700px"
+                src="img/img01-700.jpg" alt="Image of Giovanni De Andre">
+            </div>
+            <h3 class="portfolio__title pad">Giovanni De Andre</h3>
+            <a href="#">Visit site</a>
+          </li>
+          <li>
+            <div class="portfolio__img-container">
+              <img srcset="img/img02-700.jpg 700w,
                 img/img02-400.jpg 400w" sizes="(max-width: 425px) 250px,
-                700px" src="img/img02-700.jpg" alt="Image of Montserrat Saenz">
-              </div>
-              <h3 class="projects__title">Personal website of Montserrat Saenz</h3>
-              <a href="#">Visit site</a>
-            </li>
-            <li>
-              <div class="projects__img-container">
-                <img srcset="img/img03-700.jpg 700w, img/img03-400.jpg 400w" sizes="(max-width: 425px) 250px,
-                700px" src="img/img03-700.jpg" alt="Image of Jese de souza">
-              </div>
-              <h3 class="projects__title">Web Resume of Jese De Souza</h3>
-              <a href="#">Visit site</a>
-            </li>
-          </ul>
-        </section>
-      </main>
-
-      <footer class="foot flex">
-        <ul class="foot__contact">
-          <li>
-            <a href="#">hello@janedoette.com</a>
+                700px"
+                src="img/img02-700.jpg" alt="Image of Montserrat Saenz">
+            </div>
+            <h3 class="portfolio__title pad">Personal website of Montserrat Saenz</h3>
+            <a href="#">Visit site</a>
           </li>
           <li>
-            <a href="#">GitHub</a>
-          </li>
-          <li>
-            <a href="#">CodePen</a>
-          </li>
-          <li>
-            <a href="#">LinkedIn</a>
-          </li>
-          <li>
-            <a href="#">Instagram</a>
+            <div class="portfolio__img-container">
+              <img srcset="img/img03-700.jpg 700w, img/img03-400.jpg 400w" sizes="(max-width: 425px) 250px,
+                700px"
+                src="img/img03-700.jpg" alt="Image of Jese de souza">
+            </div>
+            <h3 class="portfolio__title pad">Web Resume of Jese De Souza</h3>
+            <a href="#">Visit site</a>
           </li>
         </ul>
-        <p class="foot__copy">2018 Jane Doette | All rights reserved.</p>
-      </footer>
-    </div>
-  </body>
+      </section>
+    </main>
+
+    <footer class="foot flex flex--center space-up pad">
+      <ul class="ul-list">
+        <li class="ul-list__li">
+          <a href="#">hello@janedoette.com</a>
+        </li>
+        <li class="ul-list__li">
+          <a href="#">GitHub</a>
+        </li>
+        <li class="ul-list__li">
+          <a href="#">CodePen</a>
+        </li>
+        <li class="ul-list__li">
+          <a href="#">LinkedIn</a>
+        </li>
+        <li class="ul-list__li">
+          <a href="#">Instagram</a>
+        </li>
+      </ul>
+      <p class="foot__copy">2018 Jane Doette. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
 
 </html>
