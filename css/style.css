@@ -101,7 +101,7 @@ a:hover {
   height: 24px;
   font-weight: 900;
   background-color: #fff;
-  background-image: url(/img/jd-logo-black.svg);
+  background-image: url(../img/jd-logo-black.svg);
   background-repeat: no-repeat;
   background-size: 24px;
 }
