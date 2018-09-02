@@ -1,95 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="theme-color" content="#02b3e4">
-  <meta name="description" content="The portfolio website of Jane Doette front-end developer and everything else.">
-  <meta name="keywords" content="front-end developer, html, css, programmer, js, portfolio">
-  <title>Jane Doette | Front End Ninja</title>
-  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
-  </style>
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#02b3e4">
+    <meta name="description" content="The portfolio website of Jane Doette front-end developer and everything else.">
+    <meta name="keywords" content="front-end developer, html, css, programmer, js, portfolio">
+    <title>Jane Doette | Front End Ninja</title>
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-<body>
-  <div class="container">
-    <header class="header flex">
-      <div class="header__logo">
-        <svg width="100%" height="100%" viewBox="0 0 129 96" version="1.1">
-          <path d="M64.538,20.168l0,44.773c0,9.95 -2.712,17.614 -8.135,22.992c-5.423,5.378 -12.93,8.067 -22.521,8.067c-10.397,0 -18.644,-2.936 -24.739,-8.807c-6.095,-5.871 -9.143,-14.319 -9.143,-25.344l22.723,0c0,8.874 3.361,13.311 10.084,13.311c5.826,0 8.739,-3.406 8.739,-10.219l0,-64.941l36.865,0c10.219,0 19.048,1.972 26.488,5.916c7.439,3.944 13.154,9.501 17.143,16.672c3.988,7.171 5.983,15.418 5.983,24.74c0,9.322 -1.995,17.591 -5.983,24.806c-3.989,7.216 -9.726,12.841 -17.211,16.874c-7.484,4.034 -16.29,6.051 -26.42,6.051l-12.907,0l0,-20.572l10.891,0c8.963,0 15.932,-2.375 20.907,-7.126c4.975,-4.75 7.462,-11.428 7.462,-20.033c0,-8.605 -2.487,-15.283 -7.462,-20.034c-4.975,-4.751 -11.944,-7.126 -20.907,-7.126l-11.857,0Z"
-            style="fill:#02b3e4;fill-rule:nonzero;" />
-        </svg>
-        <span class="header__logo-text">Jane Doette</span>
+  <body>
+    <div class="container">
+      <header class="header flex">
+        <div class="header__logo">
+          <span class="header__logo-text">Jane Doette</span>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+              <li class="nav__list__li"><a href="#home">About</a></li>
+              <li class="nav__list__li"><a href="#portfolio">Portfolio</a></li>
+              <li class="nav__list__li"><a href="">hello@janedoette.com</a></li>
+            </ul>
+        </nav>
+      </header>
+
+      <div class="hero" id="home">
+        <h1 class="hero__title">Jane Doette
+        </h1>
+        <p class="hero__sub">Front-end developer</p>
       </div>
-      <h1 class="header__title">Jane Doette
-        <span class="header__title-sub">Front-end ninja</span>
-      </h1>
-    </header>
 
-    <div class="hero"></div>
+      <main class="main">
+        <section id="portfolio">
+          <h2 class="section__heading">Featured works</h2>
+          <ul class="projects flex">
+            <li>
+              <div class="projects__img-container">
+                <img srcset="img/img01-700.jpg 700w,
+                        img/img01-400.jpg 400w" sizes="(max-width: 425px) 250px,
+                700px" src="img/img01-700.jpg" alt="Image of Giovanni De Andre">
+              </div>
+              <h3 class="projects__title">Giovanni De Andre</h3>
+              <a href="#">Visit site</a>
+            </li>
+            <li>
+              <div class="projects__img-container">
+                <img srcset="img/img02-700.jpg 700w,
+                img/img02-400.jpg 400w" sizes="(max-width: 425px) 250px,
+                700px" src="img/img02-700.jpg" alt="Image of Montserrat Saenz">
+              </div>
+              <h3 class="projects__title">Personal website of Montserrat Saenz</h3>
+              <a href="#">Visit site</a>
+            </li>
+            <li>
+              <div class="projects__img-container">
+                <img srcset="img/img03-700.jpg 700w, img/img03-400.jpg 400w" sizes="(max-width: 425px) 250px,
+                700px" src="img/img03-700.jpg" alt="Image of Jese de souza">
+              </div>
+              <h3 class="projects__title">Web Resume of Jese De Souza</h3>
+              <a href="#">Visit site</a>
+            </li>
+          </ul>
+        </section>
+      </main>
 
-    <main class="main">
-      <section id="projects">
-        <h2 class="section__heading">Featured works</h2>
-        <ul class="projects flex">
+      <footer class="foot flex">
+        <ul class="foot__contact">
           <li>
-            <div class="projects__img-container">
-              <img srcset="images/aidan-hancock-700.jpg 700w,
-                      images/aidan-hancock-400.jpg 400w" sizes="(max-width: 425px) 250px,
-              700px" src="images/aidan-hancock-700w.jpg" alt="Appify application on smartphone">
-            </div>
-            <h3 class="projects__title">Appify</h3>
-            <a href="#">Visit site</a>
+            <a href="#">hello@janedoette.com</a>
           </li>
           <li>
-            <div class="projects__img-container">
-              <img srcset="images/rosie-kerr-700.jpg 700w,
-              images/rosie-kerr-400.jpg 400w" sizes="(max-width: 425px) 250px,
-              700px" src="images/rosie-kerr-700.jpg" alt="Sunflower">
-            </div>
-            <h3 class="projects__title">Sunflower</h3>
-            <a href="#">Visit site</a>
+            <a href="#">GitHub</a>
           </li>
           <li>
-            <div class="projects__img-container">
-              <img srcset="images/antony-xia-700.jpg 700w, images/antony-xia-400.jpg 400w" sizes="(max-width: 425px) 250px,
-              700px" src="images/antony-xia-700.jpg" alt="Bokeh style photography taked at night">
-            </div>
-            <h3 class="projects__title">Bokeh</h3>
-            <a href="#">Visit site</a>
+            <a href="#">CodePen</a>
+          </li>
+          <li>
+            <a href="#">LinkedIn</a>
+          </li>
+          <li>
+            <a href="#">Instagram</a>
           </li>
         </ul>
-      </section>
-    </main>
-
-    <footer class="foot flex">
-      <ul class="foot__contact">
-        <li>
-          <a href="#">hello@janedoette.com</a>
-        </li>
-        <li>
-          <a href="#">GitHub</a>
-        </li>
-        <li>
-          <a href="#">CodePen</a>
-        </li>
-        <li>
-          <a href="#">LinkedIn</a>
-        </li>
-        <li>
-          <a href="#">Twitter</a>
-        </li>
-      </ul>
-      <p class="foot__copy">2018 Jane Doette | All rights reserved.</p>
-    </footer>
-  </div>
-</body>
+        <p class="foot__copy">2018 Jane Doette | All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
 
 </html>

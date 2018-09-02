@@ -3,21 +3,17 @@
 For this project a mock-up was given to replicate the design using HTML and CSS.
 The site needs to be responsive and will display images, descriptions and links to each of the portfolio projects.
 
-_***Additions:**_ _the mock-up seem off w/o contact info so I added a footer with the contact info of the developer and copy/legal stuff_
+_***Additions:**_ _the mock-up seem off w/o contact info so I added a footer with the contact info of the developer and copy/legal stuff. Also I make it minimalist_
 
 ## Resources
 
   - **Design:** portfolio mock-up design provided by Udacity
   - **Jane Doette logo:** logo brand design by [Giovanni De Andre](https://twitter.com/GiovanniDeAndre)
   - **Build:** HTML and CSS
-  - **Fonts:** [Roboto](https://fonts.google.com/specimen/Roboto) by Google
-  - **Images** [Unsplash](https://unsplash.com)
-    - Hero image photo by Thien Dang on Unsplash
-    - Feature 1 photo by Aidan Hancock on Unsplash
-    - Feature 2
-  photo by Antony Xia on Unsplash
-    - Feature 3
-  photo by Rosie Kerr on Unsplash
+  - **Fonts:** [Montserrat](https://fonts.google.com/specimen/Montserrat) by Google
+  - **Images** [Minimalissimo](https://minimalissimo.com/nature-line-collection/)
+    - Hero image photo by Thien Dang on Minimalissimo
+    - Feature projects images by Giovanni De Andre
   - **Images optimization:** [Tinyjpg](https://tinyjpg.com/)
 
 **Dev Tools/Extensions**
@@ -33,15 +29,6 @@ _***Additions:**_ _the mock-up seem off w/o contact info so I added a footer wit
 ## Support
 
 Browser support works with the latest and the greatest.
-
-## TODO
-  - Redesign given mock-up design (I'll try to do my best!)
-  - CSS minification
-  - Critical CSS styles
-  - Fonts optimization
-  - Implement css/sass modules for typography and grid/layouts
-  - Create development build system with npm scripts or Webpack which will handle the sass, es6, images, fonts, etc
-  - Add my own projects
 
 ## Contribute
 
