@@ -16,7 +16,7 @@
     @font-face {
       font-family: 'Arvo';
       font-display: auto;
-      src: local('Arvo'), url(https: //fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+      src: local('Arvo'), url("https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2") format('woff2');
     }
 
     body {
@@ -24,92 +24,89 @@
     }
   </style>
   <style>
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+    @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
   </style>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/style.min.css">
 </head>
 
 <body>
-  <div class="container flex flex--col">
-    <header class="header flex space-up">
-      <p class="header__logo">
-        Jane.
-      </p>
+
+  <header class="header">
+    <div class="flex flex--center flex--row max-width header__inner">
+      <div class="brand">Jean.</div>
       <nav class="nav">
-        <ul class="ul-list ul-list--right ul-list--inline">
-          <li class="ul-list__li"><a href="#home">About</a></li>
-          <li class="ul-list__li"><a href="#portfolio">Portfolio</a></li>
-          <li class="ul-list__li"><a href="">hello@janedoette.com</a></li>
+        <ul class="list list--inline">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="">Hire me</a></li>
         </ul>
       </nav>
-    </header>
-
-    <div class="hero flex flex--center" id="home">
-      <div class="hero__banner">
-        <h1 class="hero__title">Jane Doette
-        </h1>
-        <p class="hero__sub">Front-end developer</p>
-      </div>
     </div>
+  </header>
+  <main class="main">
+    <section class="about max-width">
+      <div class="flex flex--center">
+        <h1>Jean Doette <span>front end developer</span>, anime manga enthusiast from New York.</h1>
+      </div>
+    </section>
+    <section class="portfolio max-width" id="portfolio">
 
-    <main class="main">
-      <section id="portfolio">
-        <h2 class="section__heading pad">Featured works</h2>
-        <ul class="portfolio flex">
-          <li>
-            <div class="portfolio__img-container">
-              <img srcset="img/img01-700.jpg 700w,
-                        img/img01-400.jpg 400w" sizes="(max-width: 425px) 250px,
-                700px"
-                src="img/img01-700.jpg" alt="Image of Giovanni De Andre">
+      <div class="flex flex--col flex--center">
+        <h2>Portfolio</h2>
+
+        <ul class="portfolio__list flex flex--row">
+          <li class="portfolio__list__item">
+            <div class="portfolio__list__item__img">
+              <img srcset="/img/dario@2x.png 1280w, /img/dario.png 400w" sizes="(max-width: 400px) 400px,
+                1280px"
+                src="/img/dario@2x.png" alt="Image of Dario Website">
             </div>
-            <h3 class="portfolio__title pad">Giovanni De Andre</h3>
-            <a href="#">Visit site</a>
+            <div class="portfolio__list__item__title">
+              <h3>Dario Di Maria Webpage</h3>
+              <a href="">visit site</a>
+            </div>
           </li>
-          <li>
-            <div class="portfolio__img-container">
-              <img srcset="img/img02-700.jpg 700w,
-                img/img02-400.jpg 400w" sizes="(max-width: 425px) 250px,
-                700px"
-                src="img/img02-700.jpg" alt="Image of Montserrat Saenz">
+          <li class="portfolio__list__item">
+            <div class="portfolio__list__item__img">
+              <img srcset="/img/giovanni@2x.png 1280w, /img/giovanni.png 400w" sizes="(max-width: 400px) 400px,
+                1280px"
+                src="/img/giovanni@2x.png" alt="Image of Giovanni website">
             </div>
-            <h3 class="portfolio__title pad">Personal website of Montserrat Saenz</h3>
-            <a href="#">Visit site</a>
+            <div class="portfolio__list__item__title">
+              <h3>Giovanni De Andre Website</h3>
+              <a href="">visit site</a>
+            </div>
           </li>
-          <li>
-            <div class="portfolio__img-container">
-              <img srcset="img/img03-700.jpg 700w, img/img03-400.jpg 400w" sizes="(max-width: 425px) 250px,
-                700px"
-                src="img/img03-700.jpg" alt="Image of Jese de souza">
+          <li class="portfolio__list__item">
+            <div class="portfolio__list__item__img">
+              <img srcset="/img/andrea@2x.png 1280w, /img/andrea.png 400w" sizes="(max-width: 400px) 400px,
+                1280px"
+                src="/img/andrea@2x.png" alt="Image of Andrea Website">
             </div>
-            <h3 class="portfolio__title pad">Web Resume of Jese De Souza</h3>
-            <a href="#">Visit site</a>
+            <div class="portfolio__list__item__title">
+              <h3>Andrea Saenz Website</h3>
+              <a href="">visit site</a>
+            </div>
           </li>
         </ul>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <footer class="foot flex flex--center space-up pad">
-      <ul class="ul-list">
-        <li class="ul-list__li">
-          <a href="#">hello@janedoette.com</a>
-        </li>
-        <li class="ul-list__li">
-          <a href="#">GitHub</a>
-        </li>
-        <li class="ul-list__li">
-          <a href="#">CodePen</a>
-        </li>
-        <li class="ul-list__li">
-          <a href="#">LinkedIn</a>
-        </li>
-        <li class="ul-list__li">
-          <a href="#">Instagram</a>
-        </li>
+  </main>
+  <footer class="foot">
+    <div class="flex flex--col max-width">
+      <h2>Let's talk</h2>
+
+      <ul class="list flex flex--row flex--space-between">
+        <li><a href="mailto:">hello@jeandoette.com</a></li>
+        <li><a href="">LinkedIn</a></li>
+        <li><a href="">GitHub</a></li>
+        <li><a href="">CodePen</a></li>
+        <li><a href="">Instagram</a></li>
       </ul>
-      <p class="foot__copy">2018 Jane Doette. All rights reserved.</p>
-    </footer>
-  </div>
+
+      <p class="copy"><small>Jean Doette. All Rights Reserved.</small></p>
+    </div>
+  </footer>
 </body>
 
 </html>
